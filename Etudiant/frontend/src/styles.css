@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style pour la liste des étudiants */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .present-marker {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .absent-marker {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Style pour les boutons de présence/absence */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style pour l'état de présence/absence */
+  .present {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .absent {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Style pour les titres */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour le conteneur principal */
+  #app {
+    text-align: center;
+    padding: 20px;
+  }
+  
